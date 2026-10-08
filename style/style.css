@@ -1,0 +1,195 @@
+/*RESETEAR TODO*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*FONDO PARA TODAS LAS PÁGINAS*/
+
+body {
+     background-color: #f3a0e1; 
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;   
+     padding: 0;
+}
+
+#CONTENIDO {
+    width: 70%;         
+    margin: 20px auto;      
+    background-color:#f0b7ca;  
+    border: 1px solid #dcdcdc;  
+    border-radius: 12px;        
+    padding: 30px;              
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+}
+.encabeado {
+    text-align: center;
+    justify-content: center;
+}
+#menu-navegacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  
+
+  width: 100%;
+  box-sizing: border-box; 
+  padding: 0 100px; 
+  
+
+  list-style-type: none;
+  text-align: center;
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* PAGINA DE INICIO */
+header h1 {
+    text-align: center;
+    background-color: #E6EF;
+    color: #4b0082;
+    width: 100%;
+    padding: 20px 0;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+}
+
+header h2 {
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.Mensaje-de-bienvenida {
+    font-family: 'Century Gothic', Arial, sans-serif; 
+    font-size: 1.2rem;
+    color: #4B0082;            
+    text-align: center;        
+    margin: 20px auto;       
+    max-width: 600px;        
+    line-height: 1.6;          
+}
+
+/* PÁGINA DE QUIENES SOMOS*/
+
+.presentacion {
+    font-family: 'Century Gothic', Arial, sans-serif; 
+    font-size: 1.2rem;
+    color: #4B0082;            
+    text-align: center;        
+    margin: 20px auto;       
+    max-width: 600px;        
+    line-height: 1.6;  
+}
+.imagen-integrantes {
+    width: 100%;                /* Permite que la imagen sea adaptable y no se deforme */
+    /* 🛠️ PROPIEDAD MODIFICADA: Achica el tamaño máximo de la foto (antes estaba en 500px) */
+    max-width: 300px;           
+    height: auto;               /* Mantiene la proporción original de la foto para que no se estire */
+    border-radius: 8px;         /* Conserva las esquinas redondeadas modernas */
+    margin: 15px auto;          /* Centra la imagen y le da espacio arriba y abajo */
+    display: block;    
+}
+.nombres {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: rgb(97, 95, 95); 
+    text-align: center;
+    margin: 20px auto;
+}
+
+/*PAGINA DE ROBOTICA*/
+
+.introduccion-robotica {
+    font-family: 'Century Gothic', Arial, sans-serif; 
+    font-size: 1.2rem;
+    color: #4B0082;            
+    text-align: center;        
+    margin: 20px auto;       
+    max-width: 600px;        
+    line-height: 1.6;  
+}
+
+.definicion-robotica {
+    line-height: 1.8;          
+    margin-top: 20px;          
+    margin-bottom: 20px;   
+}
+
+.imagentic {
+    width: 100%; 
+    max-width: 300px;           
+    height: auto;               
+    border-radius: 8px;      
+    margin: 15px auto;          
+    display: block;    
+
+}
+.descripcion-video {
+    line-height: 1.8;          
+    margin-top: 20px;          
+    margin-bottom: 20px; 
+}
+
+/* PAGINA DE FORO*/
+.presentacion-foro {
+    font-family: 'Century Gothic', Arial, sans-serif; 
+    font-size: 1.2rem;
+    color: #4B0082;            
+    text-align: center;        
+    margin: 20px auto;       
+    max-width: 600px;        
+    line-height: 1.6;  
+
+}
+.formulario-foro {
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;        
+    gap: 20px;                  
+    max-width: 500px;           
+    margin: 30px auto;          
+}
+espacio-campo {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;        
+    width: 100%;               
+}
+.control-entrada {
+    width: 100%;                /* Hace que el cuadro ocupe todo el ancho disponible */
+    max-width: 400px;           /* Evita que los cuadros sean exageradamente largos */
+    padding: 10px;              /* Espacio interno para que el texto no se pegue a los bordes */
+    margin-top: 8px;            /* Despega el cuadro de su etiqueta superior (Label) */
+    border: 1px solid #ccc;     /* Borde gris sutil */
+    border-radius: 6px;         /* Esquinas redondeadas modernas */
+    box-sizing: border-box;     /* Asegura que el padding no deforme el tamaño del cuadro */
+}
+.boton-publicar {
+    display: block;             
+    margin: 10px auto;          
+    padding: 12px 30px;         
+    background-color: #7B68EE;  /* Fondo color lavanda que combina con tus títulos */
+    color: white;               
+    border: none;               
+    border-radius: 6px;         
+    font-weight: bold;          
+    cursor: pointer;            
+    transition: background 0.2s;
+}
+.area-del-texto {
+    resize: vertical;           /* Permite al usuario estirar el cuadro solo hacia abajo */
+}
